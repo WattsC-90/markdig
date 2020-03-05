@@ -34,6 +34,7 @@ namespace Markdig.Renderers
             ObjectRenderers.Add(new ParagraphRenderer());
             ObjectRenderers.Add(new QuoteBlockRenderer());
             ObjectRenderers.Add(new ThematicBreakRenderer());
+            ObjectRenderers.Add(new MarkdownIncludeBlockRenderer());
 
             // Default inline renderers
             ObjectRenderers.Add(new AutolinkInlineRenderer());

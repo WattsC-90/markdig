@@ -35,6 +35,8 @@ namespace Markdig
                 new FencedCodeBlockParser(),
                 new IndentedCodeBlockParser(),
                 new ParagraphBlockParser(),
+
+                new IncludeBlockParser()
             };
 
             InlineParsers = new OrderedList<InlineParser>()
